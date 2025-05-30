@@ -1,0 +1,153 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%; 
+}
+
+.pd-all-section {
+    width: 100%;
+    height: 100%;
+   
+    display: flex;
+    justify-content: center;
+  
+}
+
+.pd-main-section {
+
+width: 80%;
+display: flex;
+}
+
+.pd-main-section-left {
+    
+    width: 65%;
+    height: 100%;
+
+    
+}
+
+.pd-header-section {
+display: flex;
+flex-direction: column;
+gap: 10px;
+border-bottom: 1px solid #d9d9d9;
+padding-bottom: 30px;
+}
+
+.pd-header-section p1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+.pd-header-section-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.pd-header-section-icon img {
+
+}
+
+.pd-header-section-icon img:nth-child(1) {
+
+}
+
+.pd-main-section-left-img {
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.pd-main-import-button {
+    padding: 3px ;
+    background-color: #d9d9d9;
+    margin-top: 40px;
+}
+
+.pd-main-import-button p {
+    text-align: center;
+    color: #3c3a3a;
+}
+
+.pd-main-section-left-img img {
+    width: 100%;
+    height: 100%;   
+
+}
+
+.text-all-section {
+   
+}
+
+.text-section {
+   display: flex;
+   border: 5px solid red;
+   width: 100%;
+   
+}
+
+.text-section-title {
+width: 20%;
+}
+
+.text-section-title p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.text-section-description {
+  width: 80%;
+}
+
+.text-section-description p {
+font-size: 18px;
+}
+
+.text-section-description span1 {
+    color: purple;
+    padding-top: 10px;
+    font-weight: bold
+}
+
+.text-section-description span2 {
+    font-weight: bold;
+}
+
+.text-section-description span2 > span {
+    color: red;
+}
+
+.text-section-description span3 {
+    color: red;
+}
+
+
+
+.text-section-description span4 {
+    color: #d9d9d9;
+    font-size: 14px;
+}
+
+.text-icon-section {
+display: flex;
+margin: 18px 0;
+}
+
+.text-icon img {
+width: 60px;
+height: 60px;
+}
+
+.text-icon p {
+font-size: 14px;
+text-align: center;
+margin-top: 10px;
+margin: 0;
+
+}
+.pd-main-section-right {
+    border: 5px solid yellow;
+    width: 35%;
+}
