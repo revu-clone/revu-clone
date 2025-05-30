@@ -1,0 +1,253 @@
+html {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.community-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.community-title {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ddd;
+   
+}
+.community-title-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-right: 20px;
+}
+.community-title-text {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.community-title-section p {
+    font-size: 12px;
+    padding-bottom: 0;
+}
+.community-title-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.first-button {
+    padding: 5px 15px;
+    border-radius: 25px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    background-color: #6AA4E9;
+    border: 1px solid #6AA4E9;
+    font-weight: 500;
+    cursor: pointer;
+}
+.second-button {
+    padding: 5px 15px;
+    border-radius: 25px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    background-color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.faq-section {
+    display: flex;
+    justify-content: center;
+}
+.faq-left-section {
+    padding: 8px 0 0 20px;
+}
+.faq-first {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.faq-second {
+    font-size: 9px;
+    color: gray;
+}
+.faq-second-section {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.faq-second-section svg {
+    width: 10px;
+    height: 10px;
+    color: gray;
+    cursor: pointer;
+}
+.faq-right-section {
+    gap: 5px;
+}
+.faq-right-section button {
+    padding: 7px 15px;
+    border-radius: 25px;
+    font-size: 12px;
+    border: 1px solid #ddd;
+    background-color: white;
+    cursor: pointer;
+}
+.faq-right-section {
+    display: flex;
+    justify-content: center;
+}
+.faq-section img {
+    width: 260px;
+    height: 94px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.notice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+.notice-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #089DDD;
+}
+.notice-title2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2C80FF;
+}
+.notice-content-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+.notice-content-text {
+    font-size: 12px;
+    color: gray;
+}
+.notice-content {
+    width: 400px;
+    height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+}
+.profile-name {
+    font-size: 14px;
+}
+.profile-date {
+    font-size: 10px;
+}
+.notice-content img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.container {
+    display: flex;
+}
+.container-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 280px;
+    height: 535px;
+}
+.left-title {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.left-title2 {
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.left-title3 {
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.container-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    padding-left: 100px;
+}
+.right-title {
+    font-size: 24px;
+    font-weight: 500;
+}
+.right-header-section {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+.right-header-right {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 30px;
+    border-left: 1px solid #ddd;
+}
+.right-header-right svg {
+    cursor: pointer;
+    color: #ddd;
+    width: 15px;
+    height: 15px;
+}
+.right-header-right p {
+    font-size: 12px;
+    color: gray;
+}
+.right-header-button {
+    display: flex;
+    gap: 5px;
+    padding-right: 15px;
+}
+.right-header-button-section {
+    margin-right: 20px;
+}
+.right-header-button button {
+    padding: 5px 17px;
+    background: white;
+    color: black;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 25px;
+    
+}
+.right-header-button2 button {
+    font-size: 15px;
+    padding: 8px 24px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
