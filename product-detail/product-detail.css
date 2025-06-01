@@ -82,7 +82,7 @@ padding-bottom: 30px;
 
 .text-section {
    display: flex;
-   border: 5px solid red;
+   /* border: 5px solid red; */
    width: 100%;
    
 }
@@ -99,6 +99,8 @@ width: 20%;
 
 .text-section-description {
   width: 80%;
+  padding-left: 10px;
+  /* border: 5px solid blue; */
 }
 
 .text-section-description p {
@@ -130,9 +132,37 @@ font-size: 18px;
     font-size: 14px;
 }
 
+.text-section-description span5 {
+    
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 10px;
+}
+
+.text-section-description span6 {
+    font-weight: bold;
+    
+}
+
+.text-section-description span7 {
+    background: #f7f7fd;         /* 연한 보라/파랑 배경 */
+    color: #7c3aed;              /* 연한 파란색 텍스트 */
+    border: none;                /* 테두리 없음 */
+    border-radius: 16px;         /* 둥근 모서리 */
+    padding: 6px 15px;           /* 위아래, 좌우 여백 */
+    font-size: 10px;             /* 글자 크기 */
+    font-weight: 600;
+}
+
 .text-icon-section {
 display: flex;
 margin: 18px 0;
+padding-left: 10px;
+align-items: center;
+gap: 20px;
+}
+
+.text-icon {
+    gap: 10px;
 }
 
 .text-icon img {
@@ -145,8 +175,86 @@ font-size: 14px;
 text-align: center;
 margin-top: 10px;
 margin: 0;
+}
+
+.pd-down-section {
+    display: block;   
+    width: 100%;
+    background-color: #f7f7fd;
+    border: 5px solid red;
+    margin-top: 40px
+}
+
+
+
+.campain-big-box {
+ 
+}
+
+.header-box {
 
 }
+
+.header-box p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.campaign-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.campaign-img-box {
+
+}
+
+.campaign-img-box img {
+width: 173px;
+height: 173px;
+}
+
+.campaign-text-section {
+
+gap: 7px;
+
+}
+
+.campaign-date {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.campaign-date p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.campaign-title {
+
+}
+
+.campaign-title p {
+    font-size: 14px;
+   
+}
+
+.campaign-content {
+    
+}
+
+.campaign-content p {
+    font-size: 12px;
+    color: #636262;
+    
+}
+
+
+
+
+
 .pd-main-section-right {
     border: 5px solid yellow;
     width: 35%;
