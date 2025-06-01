@@ -84,3 +84,256 @@ document.getElementById("notices").innerHTML = CommunityNotice();
     `;
  }
 
+ const tok = document.getElementById("tok");
+ document.getElementById("tok").innerHTML = CommunityTok();
+
+ function CommunityTok () {
+    return `
+    <div class="container">
+       <div class="container-left">
+        <div class="left-title-section">
+            <p class="left-title">커뮤니티</p>
+            <p class="left-title2">레뷰소식</p>
+            <p class="left-title3">레뷰톡톡</p>
+            <p class="left-title2">우리친구할까요?</p>
+        </div>
+        <div class="left-title-section">
+            <p class="left-title">고객센터</p>
+            <p class="left-title2">1:1문의</p>
+            <p class="left-title2">공지사항</p>
+            <p class="left-title2">서비스 가이드</p>
+            </div>
+       </div>
+       <div class="container-right">
+        <div class="right-title">레뷰톡톡</div>
+        <div class="right-header-section">
+            <div class="right-header-button">
+                <div class="right-header-button-section">
+            <button>일상</button>
+            <button>체험단</button>
+            <button>정보공유</button>
+            <button>질문하기</button>
+            <button>검색</button>
+            </div>
+            <div class="right-header-right">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                    <path fill-rule="evenodd" d="M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z" clip-rule="evenodd" />
+                  </svg>
+                  
+                <p>내글보기</p>
+            </div>
+        </div>
+            <div class="right-header-button2">
+                <button>글 등록</button>
+            </div>
+        </div>
+
+
+        <div class="right-tok">
+        <div class="right-tok-section">
+            <div class="right-tok-left">
+                <p class="right-tok-left-text1">정보공유</p>
+                <p class="right-tok-left-text2">
+                    [이벤트]당근에 숏폼 올리고 선물 받기
+                    <img src="https://www.revu.net/assets/img/common/ic-new.svg" alt="new">
+                </p>
+                <p class="right-tok-left-text3">안녕하세요 레뷰입니다.현재 레뷰X당근 이벤트가 진행 중인 사실 알고 계셨나요? 레뷰 지역 캠페인을 통해 만들었던 숏폼 <br>
+                    콘텐츠들을 당근 스토리에 업로드만 해서 포인트를 드리는 꿀 이벤트![참여방법] 레뷰 이벤트 캠페인 신청 > [클립 콘텐츠...
+                </p>
+            </div>
+            <div class="right-tok-right">
+                <div>
+                <img src="https://www.revu.net/assets/img/board/ic-like.svg" alt="like">
+            </div>
+            <p>4</p>
+            <div>
+                <img src="https://www.revu.net/assets/img/board/ic-comment.svg" alt="comment">
+            </div>
+            <p>2</p>
+            </div>
+        </div>
+        <div class="right-tok-profile">
+            <div>
+                <img src="https://files.weble.net/avatar/35/173420/1637061302_100.jpg" alt="profile">
+            </div>
+            <div class="right-tok-profile-text">
+                <p class="right-tok-profile-text-name">REVU</p>
+                <p class="right-tok-profile-text-date">2025.05.26 11:29</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-tok">
+        <div class="right-tok-section">
+            <div class="right-tok-left">
+                <p class="right-tok-left-text1">정보공유</p>
+                <p class="right-tok-left-text2">
+                    [이벤트] 레뷰에서 클립하고, 아이패드 받아가세요! 
+                    <img src="https://www.revu.net/assets/img/common/ic-new.svg" alt="new">
+                </p>
+                <p class="right-tok-left-text3">
+                    ■ 4/14~5/25 클립 캠페인 최다 신청자 리스트아이패드 받을 확률이 높은 회원님들을 공개합니다.1. 이안* 652건2. 민티* <br>
+                    331건3. 서블** 281건4. 리뷰변** 197건5. 토깽* 179건﻿안녕하세요. 레뷰입니다.레뷰에서 가장 핫한 이벤트 클립 in 레뷰를 소개해 드립니다.최근 숏폼 콘텐츠에 대한 관심이 점차 높아짐에 따라레뷰도 클립·릴스·...
+                    
+                </p>
+            </div>
+            <div class="right-tok-right">
+                <div>
+                <img src="https://www.revu.net/assets/img/board/ic-like.svg" alt="like">
+            </div>
+            <p>13</p>
+            <div>
+                <img src="https://www.revu.net/assets/img/board/ic-comment.svg" alt="comment">
+            </div>
+            <p>4</p>
+            </div>
+        </div>
+        <div class="right-tok-profile">
+            <div>
+                <img src="https://files.weble.net/avatar/35/173420/1637061302_100.jpg" alt="profile">
+            </div>
+            <div class="right-tok-profile-text">
+                <p class="right-tok-profile-text-name">REVU</p>
+                <p class="right-tok-profile-text-date"> 2025.04.17 16:48</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-tok">
+        <div class="right-tok-section">
+            <div class="right-tok-left">
+                <p class="right-tok-left-text1-1">체험단</p>
+                <p class="right-tok-left-text2">
+                 [레뷰] 레뷰톡톡 커뮤니티 이용 안내
+                </p>
+                <p class="right-tok-left-text3">
+                   안녕하세요! 레뷰입니다 : )레뷰톡톡에 항상 많은 사랑 주고 계신 회원님들께 진심으로 감사말씀 드립니다.레뷰톡톡은 회원님들간 다양한 주제로 의견을 나누고 공감하는 공간입니다. <br>
+                   쾌적하고 원활한 소통을 위해 몇가지 유의사항을 안내드리고자 합니다.
+                </p>
+            </div>
+            <div class="right-tok-right">
+                <div>
+                <img src="https://www.revu.net/assets/img/board/ic-like.svg" alt="like">
+            </div>
+            <p>401</p>
+            <div>
+                <img src="https://www.revu.net/assets/img/board/ic-comment.svg" alt="comment">
+            </div>
+            <p>251</p>
+            </div>
+        </div>
+        <div class="right-tok-profile">
+            <div>
+                <img src="https://files.weble.net/avatar/35/173420/1637061302_100.jpg" alt="profile">
+            </div>
+            <div class="right-tok-profile-text">
+                <p class="right-tok-profile-text-name">REVU</p>
+                <p class="right-tok-profile-text-date">2023.03.06 12:07</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-tok-2">
+        <div class="right-tok-section">
+            <div class="right-tok-left">
+                <p class="right-tok-left-text1-1">체험단</p>
+                <p class="right-tok-left-text2">
+                  실버라니... 실버라니...😩
+                </p>
+                <p class="right-tok-left-text3">
+                작년 5월부터 레뷰 잘 해오면서다이아 계속 유지했는데올 3,4월 다이어트에 집중한다고음식 체험단 지원 안했더니5월에 골드더라고요..  <br>
+                근데 골드니까 당첨 진짜 안되더라고요🤣5월에 열심히 지원했는데선정 안되고 ㅋㅋㅋ결국 6월 실버로 시작합니다😂
+                </p>
+            </div>
+            <div class="right-tok-right">
+                <div>
+                <img src="https://www.revu.net/assets/img/board/ic-like.svg" alt="like">
+            </div>
+            <p>0</p>
+            <div>
+                <img src="https://www.revu.net/assets/img/board/ic-comment.svg" alt="comment">
+            </div>
+            <p>0</p>
+            </div>
+        </div>
+        <div class="right-tok-profile">
+            <div>
+                <img src="https://files.weble.net/avatar/134/665085/1724199177227_100.jpg" alt="profile">
+            </div>
+            <div class="right-tok-profile-text">
+                <p class="right-tok-profile-text-name">초코쿠키하린맘</p>
+                <p class="right-tok-profile-text-date"> 2025.06.01 17:40</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-tok-2">
+        <div class="right-tok-section">
+            <div class="right-tok-left">
+                <p class="right-tok-left-text1-1">체험단</p>
+                <p class="right-tok-left-text2">
+                    미션 검수에서 링크를 넣었는데 자꾸 누락이….
+                </p>
+                <p class="right-tok-left-text3">
+                    미션 검수에서 링크 누락이 떠요그대로 복사해서 넣어도, 여기저기 넣어도안되는데 오류일까요? ㅠㅠ참고로 링크는 계속 확인해서잘 못 넣고 할게 없는거 같아요 ㅠㅠㅠ
+                </p>
+            </div>
+            <div class="right-tok-right">
+                <div>
+                <img src="https://www.revu.net/assets/img/board/ic-like.svg" alt="like">
+            </div>
+            <p>0</p>
+            <div>
+                <img src="https://www.revu.net/assets/img/board/ic-comment.svg" alt="comment">
+            </div>
+            <p>0</p>
+            </div>
+        </div>
+        <div class="right-tok-profile">
+            <div>
+                <img src="https://files.weble.net/avatar/40/196685/1731705919329_100.jpg" alt="profile">
+            </div>
+            <div class="right-tok-profile-text">
+                <p class="right-tok-profile-text-name">꽃미정님</p>
+                <p class="right-tok-profile-text-date">2025.06.01 16:46</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-tok-2">
+        <div class="right-tok-section">
+            <div class="right-tok-left">
+                <p class="right-tok-left-text1-2">일상</p>
+                <p class="right-tok-left-text2">
+                    여유시간으로 돈벌어보실분 모집해요
+                </p>
+                <p class="right-tok-left-text3">
+                    해외수출 온라인 쇼핑몰에서 책임감있고 성실한분 모집합니다​작업관련 :  - 온라인 발주서 작성 및 송부                 
+                     - 쇼핑몰 발주서 작성​모집조건: 20세 이상 누구나 지원가능합니다!​모집인원 : 9명모집기간 : 2025/05/30~2025/06/3...
+                </p>
+            </div>
+            <div class="right-tok-right">
+                <div>
+                <img src="https://www.revu.net/assets/img/board/ic-like.svg" alt="like">
+            </div>
+            <p>0</p>
+            <div>
+                <img src="https://www.revu.net/assets/img/board/ic-comment.svg" alt="comment">
+            </div>
+            <p>2</p>
+            </div>
+        </div>
+        <div class="right-tok-profile">
+            <div>
+                <img src="https://www.revu.net/assets/img/user/avatar.svg" alt="profile">
+            </div>
+            <div class="right-tok-profile-text">
+                <p class="right-tok-profile-text-name">톡톡이슬</p>
+                <p class="right-tok-profile-text-date">2025.06.01 11:13</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    `;
+ }

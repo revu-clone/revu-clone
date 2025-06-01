@@ -162,6 +162,7 @@ html {
 }
 .container {
     display: flex;
+    padding: 0 100px;
 }
 .container-left {
     display: flex;
@@ -193,7 +194,6 @@ html {
 .container-right {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     width: 100%;
     height: auto;
     padding-left: 100px;
@@ -250,4 +250,79 @@ html {
     color: white;
     border: none;
     cursor: pointer;
+}
+.right-tok {
+    background-color: #fbfafe;
+}
+.right-tok-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 0 20px;
+}
+.right-tok-right {
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.right-tok-left-text1 {
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0099C9;
+}
+.right-tok-left-text2 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.right-tok-left-text3 {
+    font-size: 14px;
+    color: gray;
+}
+.right-tok-profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+
+}
+.right-tok-profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.right-tok-profile-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.right-tok-profile-text-name {
+    font-weight: 500;
+}
+.right-tok-profile-text-date {
+    font-size: 12px;
+    color: gray;
+}
+.right-tok-left-text1-1 {
+    color: rgb(115, 82, 255);
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.right-tok-left-text1-2 {
+    color: rgb(255, 110, 65);
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.right-tok-2 {
+    background-color: white;
 }
